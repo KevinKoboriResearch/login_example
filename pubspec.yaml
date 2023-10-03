@@ -1,0 +1,23 @@
+name: login_example
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_form_builder: ^9.1.1
+  form_builder_validators: ^9.1.0
+  flutter_modular: ^6.3.2
+  rx_notifier: ^2.3.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  
+flutter:
+  uses-material-design: true
